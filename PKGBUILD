@@ -1,7 +1,7 @@
 pkgname="valapanel-appmenu-xfce"
 pkgver=0.7.4
 pkgrel=1
-pkgdesc="valapanel for xfce"
+pkgdesc="appmenu for xfce"
 arch=(any)
 _opts=(
 	--prefix=/usr
@@ -10,7 +10,7 @@ _opts=(
 	-Dauto_features=disabled
   -Dxfce=enabled
 )
-depends=('gtk3' 'bamf>=0.5.0' 'xfce4-panel>=4.11.2' 'xfconf' 'libwnck3' 'vala-panel-appmenu-common-git')
+depends=('gtk3' 'bamf>=0.5.0' 'xfce4-panel>=4.11.2' 'xfconf' 'libwnck3' 'vala')
 optdepends=('gtk2-ubuntu: for hiding gtk2 menus'
             'unity-gtk-module: for gtk2/gtk3 menus'
             'vala-panel-appmenu-registrar: for DBusMenu registrar' 
