@@ -10,7 +10,7 @@ _opts=(
 	-Dauto_features=disabled
   -Dxfce=enabled
 )
-depends=('gtk3' 'bamf>=0.5.0' 'xfce4-panel>=4.11.2' 'xfconf' 'libwnck3' 'vala')
+depends=('gtk3' 'bamf>=0.5.0' 'xfce4-panel>=4.11.2' 'xfconf' 'libwnck3' 'vala' 'meson')
 optdepends=('gtk2-ubuntu: for hiding gtk2 menus'
             'unity-gtk-module: for gtk2/gtk3 menus'
             'vala-panel-appmenu-registrar: for DBusMenu registrar' 
