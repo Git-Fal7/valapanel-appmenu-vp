@@ -1,3 +1,5 @@
+# PKGBUILDS
+> use this repo to install xfce support, the aur one installs depends for all supported desktops
 ---
 Vala Panel Application Menu
 ---
